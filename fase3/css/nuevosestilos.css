@@ -9,9 +9,9 @@ header{
     justify-content: space-between;
     align-items: center;
     }   
-.TABLA{
+.tabla{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }  
 aside{
     grid-column: 1/2;
@@ -19,5 +19,5 @@ aside{
 }
 section{
     grid-column: 2/5;
-    background: rgb(13, 57, 189);
+    background: rgb(132, 154, 219);
 }
