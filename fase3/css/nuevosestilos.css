@@ -1,0 +1,23 @@
+*{
+    margin: 5px;
+    border-radius: 12px;
+}
+
+header{
+    background-color:rgb(121, 238, 209);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }   
+.TABLA{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}  
+aside{
+    grid-column: 1/2;
+    background: rgb(13, 57, 189);
+}
+section{
+    grid-column: 2/5;
+    background: rgb(13, 57, 189);
+}
