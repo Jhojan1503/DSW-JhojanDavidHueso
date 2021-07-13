@@ -1,0 +1,56 @@
+*{
+    margin: 5px;
+    border-radius: 12px;
+}
+
+header{
+    background-color:rgb(235, 25, 25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }   
+.tabla1{
+    display: flex;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows:(2, 1fr) ;
+}  
+.tabla2{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:(2, 1fr) ;
+}  
+aside{
+    
+    grid-column: 1/2;
+    background: rgb(50, 96, 235);
+}
+section{
+    grid-column: 2/5;
+    background: rgb(61, 89, 173);
+}
+.menu li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(1, 77, 1);
+    background:rgb(5, 145, 150);
+    height: 40px;
+    text-decoration: none;
+}
+
+h3 {color: rgb(244, 244, 252);}
+h1 {color: rgb(244, 244, 252);}
+h2 {color: rgb(244, 244, 252);}
+h4 {color: rgb(244, 244, 252);}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    display: flex;
+    list-style-type: none;
+}
+
