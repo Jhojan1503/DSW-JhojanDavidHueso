@@ -9,6 +9,7 @@ header{
     justify-content: space-between;
     align-items: center;
     }   
+    
 .tabla1{
     display: flex;
     grid-template-columns: 1fr 1fr ;
@@ -52,3 +53,7 @@ li{
 
 p{ color:oldlace}
 br{color:rgb(244, 244, 252)}
+
+div #contenedor{
+
+}
