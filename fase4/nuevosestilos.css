@@ -54,6 +54,24 @@ li{
 p{ color:oldlace}
 br{color:rgb(244, 244, 252)}
 
-div #contenedor{
+        
+@media (max-width:600px){
+    aside{
+        background-color:mediumturquoise;
+    }
+    header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    iframe {
+        background-color: navy;
+    }
+    Section{
+        background-color: palegoldenrod;
+    }
 
+    .tabla1{
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
